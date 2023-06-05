@@ -115,10 +115,11 @@ nav ul li:hover::after {
 }
 
 .row {
-  margin-top: 5%;
   display: flex;
   justify-content: space-between;
+  align-items: stretch;
 }
+
 
 /* image */
 
@@ -150,7 +151,10 @@ nav ul li:hover::after {
   border: 1px solid #fff3f3;
   background-color: #fff3f3;
   overflow: hidden;
-}
+  display: flex;
+  flex-direction: column;
+  }
+
 
 .about-us-col2 p {
   color: #777;
